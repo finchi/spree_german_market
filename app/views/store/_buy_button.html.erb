@@ -1,3 +1,3 @@
-<%= content_tag :p, I18n.t(:buy_declaration) %>
+<%= content_tag :p, I18n.t(:buy_declaration_html, href: link_to(I18n.t("tos_link"), "#")).html_safe %>
 <%= submit_tag I18n.t(:buy), class: 'btn btn-lg btn-success primary' %>
 <script>Spree.disableSaveOnClick();</script>
