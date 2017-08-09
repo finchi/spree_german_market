@@ -1,6 +1,7 @@
 <div data-hook='payment_accept_tos'>
   <label>
-    <%= check_box_tag "order[tos]" %>
+    <%= hidden_field_tag 'order[terms_and_conditions]', '' %>
+    <%= check_box_tag "order[terms_and_conditions]" %>
     <%= I18n.t(:buy_declaration_html, href: link_to(I18n.t("tos_link"), "#", class: 'tos-link')).html_safe %>
   </label>
 </div>
