@@ -3,5 +3,5 @@
 
 de:
   buy: "Jetzt kaufen"
-  buy_declaration_html: "Mit Betätigungs des 'Jetzt Kaufen'-Knopfes bestätigen Sie unsere %{href}."
-  tos_link: "Allgemeinen Geschäftsbedingungen (AGB) und Datenschutzbestimmungen"
+  buy_declaration_html: "Bestätigen Sie unsere %{href}."
+  tos_link: "Allgemeinen Geschäftsbedingungen (AGB)"

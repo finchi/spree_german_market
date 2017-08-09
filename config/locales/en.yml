@@ -3,5 +3,5 @@
 
 en:
   buy: "Buy"
-  buy_declaration_html: "By Clicking the 'Buy'-Button you accept our %{href}."
-  tos_link: "general terms and conditions"
+  buy_declaration_html: "Accept our general %{href}."
+  tos_link: "terms and conditions"
