@@ -2,7 +2,7 @@
   <label>
     <%= hidden_field_tag 'order[terms_and_conditions]', '' %>
     <%= check_box_tag "order[terms_and_conditions]" %>
-    <%= I18n.t(:buy_declaration_html, href: link_to(I18n.t("tos_link"), "#", class: 'tos-link')).html_safe %>
+    <%= I18n.t(:buy_declaration_html, href: link_to(I18n.t("tos_link"), '/terms-and-conditions', class: 'tos-link', target: '_blank')).html_safe %>
   </label>
 </div>
 <%= submit_tag I18n.t(:buy), class: 'btn btn-lg btn-success primary' %>
