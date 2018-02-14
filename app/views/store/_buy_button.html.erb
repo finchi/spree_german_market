@@ -5,5 +5,5 @@
     <%= I18n.t(:buy_declaration_html, href: link_to(I18n.t("tos_link"), '/terms-and-conditions', class: 'tos-link', target: '_blank')).html_safe %>
   </label>
 </div>
-<%= submit_tag I18n.t(:buy), class: 'btn btn-lg btn-success primary' %>
+<%= submit_tag I18n.t(:buy), id: 'buy-button', class: 'btn btn-lg btn-success primary' %>
 <script>Spree.disableSaveOnClick();</script>
